@@ -1,0 +1,18 @@
+{
+    "disabled": false,
+    "bindings":[
+        {
+          "name": "req",
+          "type": "httpTrigger",
+          "direction": "in",
+          "methods": [ "post" ],
+          "route": "github",
+          "webHookType": "github"
+        },
+        {
+          "name": "res",
+          "type": "http",
+          "direction": "out"
+        }
+    ]
+}
