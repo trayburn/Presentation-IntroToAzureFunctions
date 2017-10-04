@@ -1,0 +1,14 @@
+{
+    "functionTimeout": "00:00:05",
+    "http": {
+        "routePrefix": "api",
+        "maxOutstandingRequests": -1,
+        "maxConcurrentRequests": -1,
+        "dynamicThrottlesEnabled": false
+    },
+    "tracing": {
+      "consoleLevel": "info",
+      "fileLoggingMode": "debugOnly"
+    },
+    "watchDirectories": [ "Shared" ],
+}
