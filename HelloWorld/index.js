@@ -10,3 +10,5 @@ module.exports = function (context, req) {
 
     context.done();
 }
+
+// https://itaf.azurewebsites.net/api/helloworld/Tim?code=/e55udEcFgONqsXa7XqaYQcqkKkZpdA4Ned9fvuEbr9S0DoeZB8Mrg==

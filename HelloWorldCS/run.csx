@@ -7,3 +7,5 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, string
 
     return req.CreateResponse(HttpStatusCode.OK, $"Hello {name}! Welcome to DogFoodCon.");
 }
+
+// https://itaf.azurewebsites.net/api/helloworldcs/Tim?code=aysJF4aGWBBe75jKBzmFAFp4PQFrRJKgfRQDR1jeYG//wIS/q4xeuA==
