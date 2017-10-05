@@ -1,5 +1,5 @@
 {
-    "functionTimeout": "00:00:05",
+    "functionTimeout": "00:01:00",
     "http": {
         "routePrefix": "api",
         "maxOutstandingRequests": -1,
