@@ -10,9 +10,14 @@
           "webHookType": "github"
         },
         {
-          "name": "res",
-          "type": "http",
-          "direction": "out"
+          "type": "twilioSms",
+          "name": "message",
+          "accountSid": "TwilioAccountSid",
+          "authToken": "TwilioAuthToken",
+          "to": "+1817XXXXXXX",
+          "from": "+16154362661",
+          "direction": "out",
+          "body": "Starter Body"
         }
     ]
 }
